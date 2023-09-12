@@ -20,9 +20,9 @@ Before using Clipper, you should configure it to suit your needs. Open the `Clip
 
 ```javascript
 // #START-CONFIG
-//### REPLACE THE objRegEx value with your regex
+//      ### REPLACE THE objRegEx value with your regex
 var objRegEx = new RegExp("\\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,4}\\b", "ig");
-//### REPLACE your@value.sex with your text to put into the clipboard
+//      ### REPLACE your@value.sex with your text to put into the clipboard
 var toclip = "your@value.corn"
 // #END-CONFIG
 ```
